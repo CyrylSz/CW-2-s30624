@@ -397,4 +397,30 @@ FodyWeavers.xsd
 *.msp
 
 # JetBrains Rider
+.idea/
 *.sln.iml
+*.sln.DotSettings
+*.sln.DotSettings.user
+/.Rider*
+
+# Rider backend logs
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/dictionaries
+/.idea/shelf
+/.idea/inspectionProfiles
+
+# Rider caches and index files
+/.idea/modules.xml
+/.idea/.name
+/.idea/assetWizardSettings.xml
+/.idea/httpRequests
+/.idea/dataSources/
+.idea/replstate.xml
+.idea/sonarlint/
+
+# Rider-generated coverage reports
+coverage/
+
+# Rider build output
+out/
